@@ -12,6 +12,7 @@ https://stackoverflow.com/questions/49182862/preset-files-are-not-allowed-to-exp
 
 
 
+cd C:\Users\Rigie\Desktop\Syner Notes\MEAN 2\react_cart
 
 
 

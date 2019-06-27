@@ -6,12 +6,10 @@ module.exports=function(endPoint){
     //Mapping for add profile
     //@RequestMapping(value="profiles",method=RequestMethod.POST)
 
-	console.log("router");
+	//console.log("router");
 
-	// BUGGY 
-	/*
-    endPoint.get("/admin/products",ProductController.findProducts);\
-	*/
+    endPoint.get("/admin/products",ProductController.findProducts);
+
 	
 	/*
     endPoint.get("/admin/products/:pid",ProductController.getProduct);

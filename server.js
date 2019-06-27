@@ -61,12 +61,12 @@ require('./rest-api/utils/mongodb-utils')();
 app.get('/about', function (req, res) {
   res.send('about')
 })
-
+/*
 var ProductController=require('./rest-api/controller/admin/product-controller')
 app.get('/admin/products', ProductController.findProducts);
-
+*/
 //endPoint.get("/admin/slider",SliderController.findSlider);
-//require('./rest-api/router/product-router')(endPoint); // BUGGY
+require('./rest-api/router/product-router')(app); 
 //require('./rest-api/router/slider-router')(endPoint);
 
 

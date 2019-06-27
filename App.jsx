@@ -23,7 +23,14 @@ class App extends React.Component {
 		
 	}
 
+	
    render() { 
+   
+		function myClick(e) {
+			alert("Hello World!");
+		}	
+	   
+   
       return ( 
          <div> 
 		 
@@ -35,6 +42,8 @@ class App extends React.Component {
 			{this.state.hero}
 			<br /><br />
 		*/}	
+		
+		{/* onClick={()=>{ alert('alert'); }}  */ }
 			
           {this.state.products.map((product) => (
             <div class="card">
@@ -44,6 +53,7 @@ class App extends React.Component {
                 <p class="card-text">${product.price}</p>
 				<p class="card-text">{product.vendor}</p>
 				<p class="card-text">{product.imageUrl}</p>
+				<p><button type="button" class="btn btn-primary"  onClick={myClick} >Add to Cart</button></p>
               </div>
             </div>
           ))}	
