@@ -1,0 +1,28 @@
+{
+  "name": "react-cart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "bootstrap": "^4.1.1",
+    "core-js": "^2.5.4",
+    "email-templates": "^2.5.4",
+    "express": "^4.16.4",
+    "express-fileupload": "^1.0.0",
+    "google-auth-library": "^2.0.1",
+    "handlebars": "^4.0.6",
+    "jsonwebtoken": "^8.3.0",
+    "mongodb": "^3.1.9",
+    "mongoose": "^5.3.10",
+    "nodemailer": "^4.7.0",
+    "pug": "^2.0.3",
+    "randomstring": "^1.1.5",
+    "zone.js": "~0.8.26"
+  },
+  "author": "",
+  "license": "ISC"
+}
