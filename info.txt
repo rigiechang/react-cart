@@ -1,0 +1,26 @@
+webpack.config.js
+
+module.loaders -> modules.rules
+
+port 8080 -> port 6060
+
+
+npm install @babel/core --sav
+
+
+https://stackoverflow.com/questions/49182862/preset-files-are-not-allowed-to-export-objects
+
+
+
+
+
+
+npm start
+
+http://localhost:6060/
+
+
+
+nodemon server.js
+
+http://localhost:4000/admin/products
